@@ -10,6 +10,7 @@
 		05CB4E4CD28DA1C357AC2F6F /* Pods_TrailFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D9BFACEFA27A33FF82E9C2 /* Pods_TrailFinder.framework */; };
 		5BDDCF3952C9F3FABF46C49A /* Pods_TrailFinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED1EF6B919CE42A784763495 /* Pods_TrailFinderTests.framework */; };
 		92EB79FC9ABC00775411F192 /* Pods_TrailFinderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45698038CE48DB3E3A5BFA5E /* Pods_TrailFinderUITests.framework */; };
+		EB4C825E1D01C5160043CB9D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4C825D1D01C5160043CB9D /* File.swift */; };
 		EB7E18911D01C0E20092B1DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7E18901D01C0E20092B1DF /* AppDelegate.swift */; };
 		EB7E18931D01C0E20092B1DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7E18921D01C0E20092B1DF /* ViewController.swift */; };
 		EB7E18961D01C0E20092B1DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7E18941D01C0E20092B1DF /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 		787A645D9D02DB2240EA35E2 /* Pods-TrailFinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrailFinderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrailFinderTests/Pods-TrailFinderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C21A223EF63063F7E450A7FA /* Pods-TrailFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrailFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrailFinder/Pods-TrailFinder.debug.xcconfig"; sourceTree = "<group>"; };
 		D0F1C517D516601AC22D6A78 /* Pods-TrailFinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrailFinderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrailFinderTests/Pods-TrailFinderTests.release.xcconfig"; sourceTree = "<group>"; };
+		EB4C825D1D01C5160043CB9D /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		EB7E188D1D01C0E20092B1DF /* TrailFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrailFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7E18901D01C0E20092B1DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB7E18921D01C0E20092B1DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 		EB7E18C11D01C23F0092B1DF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				EB4C825D1D01C5160043CB9D /* File.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -463,6 +466,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB7E18C41D01C3410092B1DF /* TrailTableViewCell.swift in Sources */,
+				EB4C825E1D01C5160043CB9D /* File.swift in Sources */,
 				EB7E18931D01C0E20092B1DF /* ViewController.swift in Sources */,
 				EB7E18911D01C0E20092B1DF /* AppDelegate.swift in Sources */,
 			);
