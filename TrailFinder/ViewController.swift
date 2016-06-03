@@ -8,15 +8,17 @@
 
 import UIKit
 import Alamofire
+import SwiftyJSON
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var tableView: UITableView!
     
-    let trail1 = Trail(name: "Hawthorn", parkName: "Gainesville", description: "A good one")
-    let trail2 = Trail(name: "Amanda's Trail", parkName: "Panda Forest", description: "This one's for PB")
-    
+//    let trail1 = Trail(name: "Hawthorn", parkName: "Gainesville", description: "A good one")
+//    let trail2 = Trail(name: "Amanda's Trail", parkName: "Panda Forest", description: "This one's for PB")
+//    
     var trails = [Trail]()
+    var arrRes = [[String:AnyObject]]()
     
 
     override func viewDidLoad() {
@@ -24,7 +26,30 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         // Do any additional setup after loading the view, typically from a nib.
         tableView.delegate = self
         tableView.dataSource = self
-        trails += [trail1, trail2]
+//        trails += [trail1, trail2]
+        
+        Alamofire.request(.GET, "https://api.transitandtrails.org/api/v1/trailheads?key=94669896c38b621d84dcb8351048a6741afb9370b09f8a6809708102e102cec2&limit=5")
+            .responseJSON { response in
+                guard response.result.error == nil else {
+                    print("error calling GET on /api/v1/trailheads")
+                    print(response.result.error!)
+                    return
+                }
+                if let value = response.result.value {
+                    print(value)
+                    if let resData = JSON(value).arrayObject{
+                        self.arrRes = resData as! [[String:AnyObject]]
+                    }
+                    if self.arrRes.count > 0 {
+                        for trailDictionary in self.arrRes {
+                            self.trails.append(Trail(name: (trailDictionary["name"] as? String)!, parkName: (trailDictionary["park_name"] as? String)!))
+                        }
+                    self.tableView.reloadData()
+                    }
+                }
+        }
+        
+
         
     }
 
@@ -35,15 +60,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("trailCell") as! TrailTableViewCell
-    
         cell.titleLabel.text = trails[indexPath.row].name
-        cell.descriptionLabel.text = trails[indexPath.row].description
         cell.parkLabel.text = trails[indexPath.row].parkName
         return cell
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return trails.count
+
     }
 
 }
