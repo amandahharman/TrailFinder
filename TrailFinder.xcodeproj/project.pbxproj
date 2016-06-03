@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05CB4E4CD28DA1C357AC2F6F /* Pods_TrailFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D9BFACEFA27A33FF82E9C2 /* Pods_TrailFinder.framework */; };
+		5BDDCF3952C9F3FABF46C49A /* Pods_TrailFinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED1EF6B919CE42A784763495 /* Pods_TrailFinderTests.framework */; };
+		92EB79FC9ABC00775411F192 /* Pods_TrailFinderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45698038CE48DB3E3A5BFA5E /* Pods_TrailFinderUITests.framework */; };
 		EB7E18911D01C0E20092B1DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7E18901D01C0E20092B1DF /* AppDelegate.swift */; };
 		EB7E18931D01C0E20092B1DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7E18921D01C0E20092B1DF /* ViewController.swift */; };
 		EB7E18961D01C0E20092B1DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7E18941D01C0E20092B1DF /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		EB7E189B1D01C0E20092B1DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7E18991D01C0E20092B1DF /* LaunchScreen.storyboard */; };
 		EB7E18A61D01C0E20092B1DF /* TrailFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7E18A51D01C0E20092B1DF /* TrailFinderTests.swift */; };
 		EB7E18B11D01C0E20092B1DF /* TrailFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7E18B01D01C0E20092B1DF /* TrailFinderUITests.swift */; };
+		EB7E18C41D01C3410092B1DF /* TrailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7E18C31D01C3410092B1DF /* TrailTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05DA28DA04A5F62AED8D6E71 /* Pods-TrailFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrailFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrailFinder/Pods-TrailFinder.release.xcconfig"; sourceTree = "<group>"; };
+		45698038CE48DB3E3A5BFA5E /* Pods_TrailFinderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrailFinderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D9BFACEFA27A33FF82E9C2 /* Pods_TrailFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrailFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E2B1E75ED4A462429C03D26 /* Pods-TrailFinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrailFinderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrailFinderUITests/Pods-TrailFinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		787A645D9D02DB2240EA35E2 /* Pods-TrailFinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrailFinderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrailFinderTests/Pods-TrailFinderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C21A223EF63063F7E450A7FA /* Pods-TrailFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrailFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrailFinder/Pods-TrailFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		D0F1C517D516601AC22D6A78 /* Pods-TrailFinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrailFinderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrailFinderTests/Pods-TrailFinderTests.release.xcconfig"; sourceTree = "<group>"; };
 		EB7E188D1D01C0E20092B1DF /* TrailFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrailFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7E18901D01C0E20092B1DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB7E18921D01C0E20092B1DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,9 @@
 		EB7E18AC1D01C0E20092B1DF /* TrailFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrailFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7E18B01D01C0E20092B1DF /* TrailFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailFinderUITests.swift; sourceTree = "<group>"; };
 		EB7E18B21D01C0E20092B1DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB7E18C31D01C3410092B1DF /* TrailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrailTableViewCell.swift; path = ../TrailTableViewCell.swift; sourceTree = "<group>"; };
+		ED1EF6B919CE42A784763495 /* Pods_TrailFinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrailFinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF07FCAAFBD8070C881C2A90 /* Pods-TrailFinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrailFinderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrailFinderUITests/Pods-TrailFinderUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05CB4E4CD28DA1C357AC2F6F /* Pods_TrailFinder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BDDCF3952C9F3FABF46C49A /* Pods_TrailFinderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92EB79FC9ABC00775411F192 /* Pods_TrailFinderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7FD89710FA358DB5EE07D8D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52D9BFACEFA27A33FF82E9C2 /* Pods_TrailFinder.framework */,
+				ED1EF6B919CE42A784763495 /* Pods_TrailFinderTests.framework */,
+				45698038CE48DB3E3A5BFA5E /* Pods_TrailFinderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B05CE3DF7625728B07122C0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C21A223EF63063F7E450A7FA /* Pods-TrailFinder.debug.xcconfig */,
+				05DA28DA04A5F62AED8D6E71 /* Pods-TrailFinder.release.xcconfig */,
+				787A645D9D02DB2240EA35E2 /* Pods-TrailFinderTests.debug.xcconfig */,
+				D0F1C517D516601AC22D6A78 /* Pods-TrailFinderTests.release.xcconfig */,
+				5E2B1E75ED4A462429C03D26 /* Pods-TrailFinderUITests.debug.xcconfig */,
+				EF07FCAAFBD8070C881C2A90 /* Pods-TrailFinderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EB7E18841D01C0E20092B1DF = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				EB7E18A41D01C0E20092B1DF /* TrailFinderTests */,
 				EB7E18AF1D01C0E20092B1DF /* TrailFinderUITests */,
 				EB7E188E1D01C0E20092B1DF /* Products */,
+				B05CE3DF7625728B07122C0B /* Pods */,
+				7FD89710FA358DB5EE07D8D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +139,10 @@
 		EB7E188F1D01C0E20092B1DF /* TrailFinder */ = {
 			isa = PBXGroup;
 			children = (
-				EB7E18901D01C0E20092B1DF /* AppDelegate.swift */,
-				EB7E18921D01C0E20092B1DF /* ViewController.swift */,
-				EB7E18941D01C0E20092B1DF /* Main.storyboard */,
-				EB7E18971D01C0E20092B1DF /* Assets.xcassets */,
-				EB7E18991D01C0E20092B1DF /* LaunchScreen.storyboard */,
-				EB7E189C1D01C0E20092B1DF /* Info.plist */,
+				EB7E18C11D01C23F0092B1DF /* Models */,
+				EB7E18C01D01C18B0092B1DF /* Views */,
+				EB7E18BE1D01C1740092B1DF /* Controllers */,
+				EB7E18C21D01C25D0092B1DF /* Supporting Files */,
 			);
 			path = TrailFinder;
 			sourceTree = "<group>";
@@ -125,6 +165,41 @@
 			path = TrailFinderUITests;
 			sourceTree = "<group>";
 		};
+		EB7E18BE1D01C1740092B1DF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EB7E18C31D01C3410092B1DF /* TrailTableViewCell.swift */,
+				EB7E18921D01C0E20092B1DF /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EB7E18C01D01C18B0092B1DF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EB7E18941D01C0E20092B1DF /* Main.storyboard */,
+				EB7E18991D01C0E20092B1DF /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EB7E18C11D01C23F0092B1DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EB7E18C21D01C25D0092B1DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB7E18901D01C0E20092B1DF /* AppDelegate.swift */,
+				EB7E18971D01C0E20092B1DF /* Assets.xcassets */,
+				EB7E189C1D01C0E20092B1DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB7E18B51D01C0E20092B1DF /* Build configuration list for PBXNativeTarget "TrailFinder" */;
 			buildPhases = (
+				6AE3089CB621BBBE94167139 /* [CP] Check Pods Manifest.lock */,
 				EB7E18891D01C0E20092B1DF /* Sources */,
 				EB7E188A1D01C0E20092B1DF /* Frameworks */,
 				EB7E188B1D01C0E20092B1DF /* Resources */,
+				ABC2FC488381A7C4493CE2CD /* [CP] Embed Pods Frameworks */,
+				CC8E7BE08C4A2939A9AF63F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB7E18B81D01C0E20092B1DF /* Build configuration list for PBXNativeTarget "TrailFinderTests" */;
 			buildPhases = (
+				EC83131D1461C5DEB23375B7 /* [CP] Check Pods Manifest.lock */,
 				EB7E189D1D01C0E20092B1DF /* Sources */,
 				EB7E189E1D01C0E20092B1DF /* Frameworks */,
 				EB7E189F1D01C0E20092B1DF /* Resources */,
+				34383CF63A6AE4D4115C98A8 /* [CP] Embed Pods Frameworks */,
+				4F5A0B68A95099DE76AB50DC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +248,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB7E18BB1D01C0E20092B1DF /* Build configuration list for PBXNativeTarget "TrailFinderUITests" */;
 			buildPhases = (
+				E58552C22F2001FD47C0DECF /* [CP] Check Pods Manifest.lock */,
 				EB7E18A81D01C0E20092B1DF /* Sources */,
 				EB7E18A91D01C0E20092B1DF /* Frameworks */,
 				EB7E18AA1D01C0E20092B1DF /* Resources */,
+				1E57AEE6BDDCD1BA685C2980 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,11 +334,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E57AEE6BDDCD1BA685C2980 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrailFinderUITests/Pods-TrailFinderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34383CF63A6AE4D4115C98A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrailFinderTests/Pods-TrailFinderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F5A0B68A95099DE76AB50DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrailFinderTests/Pods-TrailFinderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AE3089CB621BBBE94167139 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ABC2FC488381A7C4493CE2CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrailFinder/Pods-TrailFinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC8E7BE08C4A2939A9AF63F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrailFinder/Pods-TrailFinder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E58552C22F2001FD47C0DECF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC83131D1461C5DEB23375B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EB7E18891D01C0E20092B1DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB7E18C41D01C3410092B1DF /* TrailTableViewCell.swift in Sources */,
 				EB7E18931D01C0E20092B1DF /* ViewController.swift in Sources */,
 				EB7E18911D01C0E20092B1DF /* AppDelegate.swift in Sources */,
 			);
@@ -399,6 +606,7 @@
 		};
 		EB7E18B61D01C0E20092B1DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C21A223EF63063F7E450A7FA /* Pods-TrailFinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TrailFinder/Info.plist;
@@ -410,6 +618,7 @@
 		};
 		EB7E18B71D01C0E20092B1DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05DA28DA04A5F62AED8D6E71 /* Pods-TrailFinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TrailFinder/Info.plist;
@@ -421,6 +630,7 @@
 		};
 		EB7E18B91D01C0E20092B1DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 787A645D9D02DB2240EA35E2 /* Pods-TrailFinderTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TrailFinderTests/Info.plist;
@@ -433,6 +643,7 @@
 		};
 		EB7E18BA1D01C0E20092B1DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0F1C517D516601AC22D6A78 /* Pods-TrailFinderTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TrailFinderTests/Info.plist;
@@ -445,6 +656,7 @@
 		};
 		EB7E18BC1D01C0E20092B1DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E2B1E75ED4A462429C03D26 /* Pods-TrailFinderUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TrailFinderUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +668,7 @@
 		};
 		EB7E18BD1D01C0E20092B1DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF07FCAAFBD8070C881C2A90 /* Pods-TrailFinderUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TrailFinderUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +697,7 @@
 				EB7E18B71D01C0E20092B1DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB7E18B81D01C0E20092B1DF /* Build configuration list for PBXNativeTarget "TrailFinderTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +706,7 @@
 				EB7E18BA1D01C0E20092B1DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB7E18BB1D01C0E20092B1DF /* Build configuration list for PBXNativeTarget "TrailFinderUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +715,7 @@
 				EB7E18BD1D01C0E20092B1DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

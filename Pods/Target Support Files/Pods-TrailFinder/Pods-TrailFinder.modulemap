@@ -1,0 +1,6 @@
+framework module Pods_TrailFinder {
+  umbrella header "Pods-TrailFinder-umbrella.h"
+
+  export *
+  module * { export * }
+}
