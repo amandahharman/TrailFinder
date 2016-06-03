@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  Trail.swift
 //  TrailFinder
 //
 //  Created by Amanda Harman on 6/3/16.
