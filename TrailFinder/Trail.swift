@@ -11,5 +11,5 @@ import Foundation
 struct Trail {
     var name: String
     var parkName: String?
-    var description: String?
+
 }
