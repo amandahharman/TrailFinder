@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB7E18911D01C0E20092B1DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7E18901D01C0E20092B1DF /* AppDelegate.swift */; };
+		EB7E18931D01C0E20092B1DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7E18921D01C0E20092B1DF /* ViewController.swift */; };
+		EB7E18961D01C0E20092B1DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7E18941D01C0E20092B1DF /* Main.storyboard */; };
+		EB7E18981D01C0E20092B1DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB7E18971D01C0E20092B1DF /* Assets.xcassets */; };
+		EB7E189B1D01C0E20092B1DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7E18991D01C0E20092B1DF /* LaunchScreen.storyboard */; };
+		EB7E18A61D01C0E20092B1DF /* TrailFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7E18A51D01C0E20092B1DF /* TrailFinderTests.swift */; };
+		EB7E18B11D01C0E20092B1DF /* TrailFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7E18B01D01C0E20092B1DF /* TrailFinderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB7E18A21D01C0E20092B1DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB7E18851D01C0E20092B1DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB7E188C1D01C0E20092B1DF;
+			remoteInfo = TrailFinder;
+		};
+		EB7E18AD1D01C0E20092B1DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB7E18851D01C0E20092B1DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB7E188C1D01C0E20092B1DF;
+			remoteInfo = TrailFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB7E188D1D01C0E20092B1DF /* TrailFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrailFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB7E18901D01C0E20092B1DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB7E18921D01C0E20092B1DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB7E18951D01C0E20092B1DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB7E18971D01C0E20092B1DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB7E189A1D01C0E20092B1DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB7E189C1D01C0E20092B1DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB7E18A11D01C0E20092B1DF /* TrailFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrailFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB7E18A51D01C0E20092B1DF /* TrailFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailFinderTests.swift; sourceTree = "<group>"; };
+		EB7E18A71D01C0E20092B1DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB7E18AC1D01C0E20092B1DF /* TrailFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrailFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB7E18B01D01C0E20092B1DF /* TrailFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailFinderUITests.swift; sourceTree = "<group>"; };
+		EB7E18B21D01C0E20092B1DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB7E188A1D01C0E20092B1DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7E189E1D01C0E20092B1DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7E18A91D01C0E20092B1DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB7E18841D01C0E20092B1DF = {
+			isa = PBXGroup;
+			children = (
+				EB7E188F1D01C0E20092B1DF /* TrailFinder */,
+				EB7E18A41D01C0E20092B1DF /* TrailFinderTests */,
+				EB7E18AF1D01C0E20092B1DF /* TrailFinderUITests */,
+				EB7E188E1D01C0E20092B1DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB7E188E1D01C0E20092B1DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB7E188D1D01C0E20092B1DF /* TrailFinder.app */,
+				EB7E18A11D01C0E20092B1DF /* TrailFinderTests.xctest */,
+				EB7E18AC1D01C0E20092B1DF /* TrailFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB7E188F1D01C0E20092B1DF /* TrailFinder */ = {
+			isa = PBXGroup;
+			children = (
+				EB7E18901D01C0E20092B1DF /* AppDelegate.swift */,
+				EB7E18921D01C0E20092B1DF /* ViewController.swift */,
+				EB7E18941D01C0E20092B1DF /* Main.storyboard */,
+				EB7E18971D01C0E20092B1DF /* Assets.xcassets */,
+				EB7E18991D01C0E20092B1DF /* LaunchScreen.storyboard */,
+				EB7E189C1D01C0E20092B1DF /* Info.plist */,
+			);
+			path = TrailFinder;
+			sourceTree = "<group>";
+		};
+		EB7E18A41D01C0E20092B1DF /* TrailFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB7E18A51D01C0E20092B1DF /* TrailFinderTests.swift */,
+				EB7E18A71D01C0E20092B1DF /* Info.plist */,
+			);
+			path = TrailFinderTests;
+			sourceTree = "<group>";
+		};
+		EB7E18AF1D01C0E20092B1DF /* TrailFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB7E18B01D01C0E20092B1DF /* TrailFinderUITests.swift */,
+				EB7E18B21D01C0E20092B1DF /* Info.plist */,
+			);
+			path = TrailFinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB7E188C1D01C0E20092B1DF /* TrailFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB7E18B51D01C0E20092B1DF /* Build configuration list for PBXNativeTarget "TrailFinder" */;
+			buildPhases = (
+				EB7E18891D01C0E20092B1DF /* Sources */,
+				EB7E188A1D01C0E20092B1DF /* Frameworks */,
+				EB7E188B1D01C0E20092B1DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrailFinder;
+			productName = TrailFinder;
+			productReference = EB7E188D1D01C0E20092B1DF /* TrailFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB7E18A01D01C0E20092B1DF /* TrailFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB7E18B81D01C0E20092B1DF /* Build configuration list for PBXNativeTarget "TrailFinderTests" */;
+			buildPhases = (
+				EB7E189D1D01C0E20092B1DF /* Sources */,
+				EB7E189E1D01C0E20092B1DF /* Frameworks */,
+				EB7E189F1D01C0E20092B1DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB7E18A31D01C0E20092B1DF /* PBXTargetDependency */,
+			);
+			name = TrailFinderTests;
+			productName = TrailFinderTests;
+			productReference = EB7E18A11D01C0E20092B1DF /* TrailFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB7E18AB1D01C0E20092B1DF /* TrailFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB7E18BB1D01C0E20092B1DF /* Build configuration list for PBXNativeTarget "TrailFinderUITests" */;
+			buildPhases = (
+				EB7E18A81D01C0E20092B1DF /* Sources */,
+				EB7E18A91D01C0E20092B1DF /* Frameworks */,
+				EB7E18AA1D01C0E20092B1DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB7E18AE1D01C0E20092B1DF /* PBXTargetDependency */,
+			);
+			name = TrailFinderUITests;
+			productName = TrailFinderUITests;
+			productReference = EB7E18AC1D01C0E20092B1DF /* TrailFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB7E18851D01C0E20092B1DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Amanda Harman";
+				TargetAttributes = {
+					EB7E188C1D01C0E20092B1DF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EB7E18A01D01C0E20092B1DF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EB7E188C1D01C0E20092B1DF;
+					};
+					EB7E18AB1D01C0E20092B1DF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EB7E188C1D01C0E20092B1DF;
+					};
+				};
+			};
+			buildConfigurationList = EB7E18881D01C0E20092B1DF /* Build configuration list for PBXProject "TrailFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB7E18841D01C0E20092B1DF;
+			productRefGroup = EB7E188E1D01C0E20092B1DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB7E188C1D01C0E20092B1DF /* TrailFinder */,
+				EB7E18A01D01C0E20092B1DF /* TrailFinderTests */,
+				EB7E18AB1D01C0E20092B1DF /* TrailFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB7E188B1D01C0E20092B1DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7E189B1D01C0E20092B1DF /* LaunchScreen.storyboard in Resources */,
+				EB7E18981D01C0E20092B1DF /* Assets.xcassets in Resources */,
+				EB7E18961D01C0E20092B1DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7E189F1D01C0E20092B1DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7E18AA1D01C0E20092B1DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB7E18891D01C0E20092B1DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7E18931D01C0E20092B1DF /* ViewController.swift in Sources */,
+				EB7E18911D01C0E20092B1DF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7E189D1D01C0E20092B1DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7E18A61D01C0E20092B1DF /* TrailFinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7E18A81D01C0E20092B1DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7E18B11D01C0E20092B1DF /* TrailFinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB7E18A31D01C0E20092B1DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB7E188C1D01C0E20092B1DF /* TrailFinder */;
+			targetProxy = EB7E18A21D01C0E20092B1DF /* PBXContainerItemProxy */;
+		};
+		EB7E18AE1D01C0E20092B1DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB7E188C1D01C0E20092B1DF /* TrailFinder */;
+			targetProxy = EB7E18AD1D01C0E20092B1DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB7E18941D01C0E20092B1DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB7E18951D01C0E20092B1DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB7E18991D01C0E20092B1DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB7E189A1D01C0E20092B1DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB7E18B31D01C0E20092B1DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB7E18B41D01C0E20092B1DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB7E18B61D01C0E20092B1DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TrailFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aharman.TrailFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB7E18B71D01C0E20092B1DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TrailFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aharman.TrailFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB7E18B91D01C0E20092B1DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrailFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aharman.TrailFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrailFinder.app/TrailFinder";
+			};
+			name = Debug;
+		};
+		EB7E18BA1D01C0E20092B1DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrailFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aharman.TrailFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrailFinder.app/TrailFinder";
+			};
+			name = Release;
+		};
+		EB7E18BC1D01C0E20092B1DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TrailFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aharman.TrailFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TrailFinder;
+			};
+			name = Debug;
+		};
+		EB7E18BD1D01C0E20092B1DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TrailFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aharman.TrailFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TrailFinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB7E18881D01C0E20092B1DF /* Build configuration list for PBXProject "TrailFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7E18B31D01C0E20092B1DF /* Debug */,
+				EB7E18B41D01C0E20092B1DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB7E18B51D01C0E20092B1DF /* Build configuration list for PBXNativeTarget "TrailFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7E18B61D01C0E20092B1DF /* Debug */,
+				EB7E18B71D01C0E20092B1DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB7E18B81D01C0E20092B1DF /* Build configuration list for PBXNativeTarget "TrailFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7E18B91D01C0E20092B1DF /* Debug */,
+				EB7E18BA1D01C0E20092B1DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB7E18BB1D01C0E20092B1DF /* Build configuration list for PBXNativeTarget "TrailFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7E18BC1D01C0E20092B1DF /* Debug */,
+				EB7E18BD1D01C0E20092B1DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB7E18851D01C0E20092B1DF /* Project object */;
+}
