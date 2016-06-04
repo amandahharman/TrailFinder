@@ -13,12 +13,10 @@ import SwiftyJSON
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var tableView: UITableView!
-    
-//    let trail1 = Trail(name: "Hawthorn", parkName: "Gainesville", description: "A good one")
-//    let trail2 = Trail(name: "Amanda's Trail", parkName: "Panda Forest", description: "This one's for PB")
-//    
+  
     var trails = [Trail]()
     var arrRes = [[String:AnyObject]]()
+    var parks = [String]()
     
 
     override func viewDidLoad() {
@@ -26,9 +24,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         // Do any additional setup after loading the view, typically from a nib.
         tableView.delegate = self
         tableView.dataSource = self
-//        trails += [trail1, trail2]
+
         
-        Alamofire.request(.GET, "https://api.transitandtrails.org/api/v1/trailheads?key=94669896c38b621d84dcb8351048a6741afb9370b09f8a6809708102e102cec2&limit=5")
+        Alamofire.request(.GET, "https://api.transitandtrails.org/api/v1/trailheads?key=94669896c38b621d84dcb8351048a6741afb9370b09f8a6809708102e102cec2&limit=20")
             .responseJSON { response in
                 guard response.result.error == nil else {
                     print("error calling GET on /api/v1/trailheads")
@@ -43,6 +41,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                     if self.arrRes.count > 0 {
                         for trailDictionary in self.arrRes {
                             self.trails.append(Trail(name: (trailDictionary["name"] as? String)!, parkName: (trailDictionary["park_name"] as? String)!))
+                            self.parks.append((trailDictionary["park_name"] as? String)!)
                         }
                     self.tableView.reloadData()
                     }
@@ -68,6 +67,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return trails.count
 
+    }
+    
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return parks.count
     }
 
 }
